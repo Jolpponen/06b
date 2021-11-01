@@ -1,0 +1,88 @@
+body {
+		background-color: #5d5c61;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+
+}
+header {
+		background-color: black;
+		border: 
+		margin: 5px;
+		padding: 10px;
+}
+h1 {
+		color: white;
+}
+nav {
+		background-color: grey;
+		border: 
+		margin: 5px;
+		padding: 3px;
+		
+}
+
+a:hover{ color: hotpink;
+}
+
+section {
+		background-color: white;
+		border:
+		margin: 5px;
+		padding: 1px;
+		display: flex;
+		flex-wrap: wrap;
+}
+article {
+		background-color: white;
+		border: 
+		margin: 5px;
+		padding: 26px;
+		width: 80%;
+		height: 400px;
+		float: right;
+}
+aside {
+		background-color: white;
+		border: 
+		margin: 5px;
+		padding: 3px;
+		width: 15%;
+}
+footer {
+		background-color: #cccccc;
+		border: 
+		margin: 5px;
+		padding: 3px;
+}
+h2{
+		display: none;
+}
+.horizontalNavigationList	{
+		list-style: none;
+		padding: 0;
+}
+.horizontalNavigationList li {
+		display: inline;
+		padding: 10px;
+		border: 
+		margin-left: 10px;
+		margin-right: 10px;
+}
+.currentpagelink {
+		text-decoration: none;
+		cursor: not-allowed;
+		pointer-events: none;
+}
+.leftNaw{
+		width: 15%;
+}
+.verticalNavigationList{
+		list-style-type: none;
+		padding: 10px;
+		text-align: center;
+		float: left;
+}
+.hide {
+		display: none;
+}
